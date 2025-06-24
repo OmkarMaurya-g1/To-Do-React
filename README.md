@@ -1,5 +1,6 @@
- #React To-Do List App
-~#This is a simple To-Do List application built using React. It demonstrates several important React concepts for beginners.
+ # React To-Do List App
+
+~This is a simple To-Do List application built using React. It demonstrates several important React concepts for beginners.
 
 🔧 Concepts Used:
 -Functional Components

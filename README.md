@@ -1,6 +1,5 @@
-Title: React To-Do List App
-
-~This is a simple To-Do List application built using React. It demonstrates several important React concepts for beginners.
+ #React To-Do List App
+~#This is a simple To-Do List application built using React. It demonstrates several important React concepts for beginners.
 
 🔧 Concepts Used:
 -Functional Components
@@ -27,3 +26,5 @@ Title: React To-Do List App
 -Mark/Unmark all tasks as done
 
 -Convert one or all task texts to UPPERCASE/lowercase
+
+![Demo To-Do Image](https://github.com/OmkarMaurya-g1/To-Do-React/blob/main/src/Demo%20To-do%20Image.png)

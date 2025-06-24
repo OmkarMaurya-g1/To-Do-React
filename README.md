@@ -1,12 +1,29 @@
-# React + Vite
+Title: React To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+~This is a simple To-Do List application built using React. It demonstrates several important React concepts for beginners.
 
-Currently, two official plugins are available:
+🔧 Concepts Used:
+-Functional Components
+-React Hooks
+-useState for state management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Handling Forms using onChange, onSubmit
+-Conditional Rendering
 
-## Expanding the ESLint configuration
+-Array Operations
+    .map() for rendering lists and updating tasks
+    .filter() for deleting tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-Dynamic Styling with conditional classNames
+-UUID package for generating unique IDs
+
+-Basic CSS class usage (assumed for styling)
+-Multiple Functionalities:
+
+-Add new tasks
+-Delete a task
+
+-Mark/Unmark a single task as done
+-Mark/Unmark all tasks as done
+
+-Convert one or all task texts to UPPERCASE/lowercase

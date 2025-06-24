@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  padding: 20px;
+  color: #333;
+}
+
+/* Container */
+.todo-container {
+  max-width: 500px;
+  margin: auto;
+  background-color: rgb(194, 194, 224);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.todo-container h1 {
+  text-align: center;
+  color: #2d3e50;
+}
+
+/* Input Field */
+.todo-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.todo-container button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 130px;
+  align-items: center;
+}
+
+.todo-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Task List */
+.todo-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.todo-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Task Text */
+.todo-task {
+  font-size: 16px;
+}
+
+/* Strike-through if done */
+.task-done {
+  text-decoration: line-through;
+  color: gray;
+}
